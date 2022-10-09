@@ -1,0 +1,36 @@
+button{
+    display: block;
+	width: 25%;
+	padding: .5em 1em;
+    margin: 15px 0px;
+	cursor: pointer;
+    border: none;
+    border-radius: 0 10px;
+    transition-duration: 1s;
+    text-transform: uppercase;
+}
+
+.btn-principal{
+    color: #fff;
+	background-color:#6ab04c;
+    font-size: 1.2em;
+    	
+}
+
+button:hover{
+	background-color:#badc58;
+	transition-duration: 1s;
+
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+
+.adicionar-paciente{
+    margin-top: 30px;
+	
+}

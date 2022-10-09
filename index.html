@@ -3,17 +3,21 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Nutrição</title>
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 
 	</head>
 	<body>
 
 		<header>
-			<div class="container">
-				<h1 class="titulo">Nutrição</h1>
-			</div>
+				<nav class="nav">
+					<h1 class="logo">Nutrição</h1>
+					<ul>
+						<li class="menu"><a href="#">Início</a></li>
+						<li class="menu"><a href="#">Paciente</a></li>
+						<li class="menu"><a href="#">Cadastro</a></li>
+					</ul>
+				</nav>
 		</header>
 		<section class="container container-form">
 			<form id="form-adiciona">
@@ -34,15 +38,15 @@
 					<label for="gordura">% de Gordura:</label>
 					<input id="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente" class="campo campo-medio">
 				</div>
-				<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+				<button id="adicionar-paciente" class="botao btn-principal">Adicionar</button>
 				<ul id="mensagens-erro"></ul>
 			</form>
-			<img src="./img/nutri.webp" alt="">
+			<img src="./assets/img/nutri.webp" alt="">
 		</section>
 		<!-- ... -->
 
 		<main>
-			<section class="container">
+			<section class="paciente">
 				<h2>Meus Pacientes</h2>
 				<table>
 					<thead>

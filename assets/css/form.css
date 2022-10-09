@@ -1,0 +1,58 @@
+.container-form{
+	display: flex;
+	Align-items: center;
+	Justify-content: space-between;
+}
+
+.grupo{
+	width: 32.9%;
+	display:inline-block;
+	padding: 10px 5px;		
+}
+
+.grupo :nth-child(2){
+	border-radius: 8px;
+}
+
+#form-adiciona{
+	width: 70%;
+}
+img{
+	width: 25%;
+	height: 25%;
+	align-items: center;
+}
+
+.nome{
+	width: 100%;
+	display: block;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+	text-transform: uppercase;
+}
+#mensagens-erro{
+	color: red;
+	text-transform: uppercase;
+	font-style: italic;
+	line-height: 20px;
+}
+
+.campo {
+	margin: auto;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	outline: none;
+}
+
+.campo-medio{
+	padding: .7em;
+}
+
+
+
