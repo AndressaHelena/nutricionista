@@ -12,23 +12,23 @@
 	font-family: 'Mochiy Pop One', sans-serif;
     padding: 5px 0;
 }
-ul{
-    margin: auto 0;
-}
 
-ul li{
-    display: inline-block;
-    padding: 5px;
-    font-size: 1rem;
-    text-transform: uppercase;
-}
 
-ul li a{
-    text-decoration: none;
+.filtro{
+    display: flex;
+    width: 20%;
+    
+}
+.label{
     color: #FFF;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin: auto;
+
 }
-ul li a:hover{
-   
-    color: #b2ee98;
-    transition: .3s;
+
+#filtrar-tabela{
+    background: #d1d5db;
+
+
 }

@@ -1,7 +1,5 @@
-let titulo = document.querySelector(".titulo");
-titulo.textContent = "Aparecida Nutricionista"
-
-let botaoAdicionar = document.querySelector("#adicionar-paciente");
+// let titulo = document.querySelector(".titulo");
+// titulo.textContent = "Aparecida Nutricionista"
 
 /*acessou o id na tr, acessou a td peso e altura 
 e o textContent retornou o valor das duas*/

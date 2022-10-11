@@ -29,8 +29,16 @@ section{
 }
 
 section h2{
+	font-family: sans-serif;
 	font-size: 2em;
 	display: block;
 	padding-top: .6em;
 	margin-bottom: .2em;
+}
+
+input{
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	padding: 3px;
 }

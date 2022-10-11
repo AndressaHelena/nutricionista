@@ -1,3 +1,5 @@
+let botaoAdicionar = document.querySelector("#adicionar-paciente");
+
 botaoAdicionar.addEventListener("click", adicionarPaciente);
 
 function adicionarPaciente(event){

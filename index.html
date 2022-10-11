@@ -5,18 +5,16 @@
 		<title>Nutrição</title>
 		<link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-
 	</head>
 	<body>
 
 		<header>
 				<nav class="nav">
 					<h1 class="logo">Nutrição</h1>
-					<ul>
-						<li class="menu"><a href="#">Início</a></li>
-						<li class="menu"><a href="#">Paciente</a></li>
-						<li class="menu"><a href="#">Cadastro</a></li>
-					</ul>
+					<div class="filtro">
+						<label class="label" for="filtrar-tabela">Buscar</label>
+						<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
+					</div>
 				</nav>
 		</header>
 		<section class="container container-form">
@@ -46,7 +44,7 @@
 		<!-- ... -->
 
 		<main>
-			<section class="paciente">
+			<section id="paciente">
 				<h2>Meus Pacientes</h2>
 				<table>
 					<thead>
@@ -88,8 +86,12 @@
 			</section>
 		</main>
 
-		<script src="js/principal.js"></script>
-		<script src="js/form.js"></script>
+		<script type="text/javascript" src="./assets/js/principal.js"></script>
+		<script type="text/javascript" src="./assets/js/form.js"></script>
+		<script type="text/javascript" src="./assets/js/remover-paciente.js"></script>
+		<script type="text/javascript" src="./assets/js/filtra.js"></script>
+
+
 
 	</body>
 </html>
