@@ -2,14 +2,16 @@ button{
     display: block;
 	width: 20%;
 	padding: .5em 1em;
-    margin: 15px 0px;
+    margin: 15px 5px;
 	cursor: pointer;
     border: none;
     border-radius: 0 10px;
     transition-duration: 1s;
     text-transform: uppercase;
 }
-
+div.btns{
+    display: flex;
+}
 .btn-principal{
     color: #fff;
 	background-color:#6ab04c;

@@ -12,7 +12,7 @@
 				<nav class="nav">
 					<h1 class="logo">Nutrição</h1>
 					<div class="filtro">
-						<label class="label" for="filtrar-tabela">Buscar</label>
+						<label class="label" for="filtrar-tabela">filtrar</label>
 						<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
 					</div>
 				</nav>
@@ -36,7 +36,10 @@
 					<label for="gordura">% de Gordura:</label>
 					<input id="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente" class="campo campo-medio">
 				</div>
-				<button id="adicionar-paciente" class="botao btn-principal">Adicionar</button>
+				<div class="btns">
+					<button id="buscar-paciente" class="botao btn-principal">Buscar</button>
+					<button id="adicionar-paciente" class="botao btn-principal">Adicionar</button>
+				</div>
 				<ul id="mensagens-erro"></ul>
 			</form>
 			<img src="./assets/img/nutri.webp" alt="">
@@ -57,7 +60,7 @@
 						</tr>
 					</thead>
 					<tbody id="tabela-pacientes">
-						<tr class="paciente" id="primeiro-paciente" >
+						<tr class="paciente" id="paciente-api" >
 							<td class="info-nome">Paulo</td>
 							<td class="info-peso">100</td>
 							<td class="info-altura">2.00</td>
@@ -65,21 +68,6 @@
 							<td class="info-imc">0</td>
 						</tr>
 
-						<tr class="paciente" >
-							<td class="info-nome">Erica</td>
-							<td class="info-peso">54</td>
-							<td class="info-altura">1.64</td>
-							<td class="info-gordura">14</td>
-							<td class="info-imc">0</td>
-						</tr>
-
-						<tr class="paciente">
-							<td class="info-nome">Douglas</td>
-							<td class="info-peso">80</td>
-							<td class="info-altura">1.73</td>
-							<td class="info-gordura">24</td>
-							<td class="info-imc">0</td>
-						</tr>
 					</tbody>
 				</table>
 
@@ -90,6 +78,7 @@
 		<script type="text/javascript" src="./assets/js/form.js"></script>
 		<script type="text/javascript" src="./assets/js/remover-paciente.js"></script>
 		<script type="text/javascript" src="./assets/js/filtra.js"></script>
+		<script type="text/javascript" src="./assets/js/buscar-paciente.js"></script>
 
 
 

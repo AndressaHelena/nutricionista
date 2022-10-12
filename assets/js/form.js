@@ -26,6 +26,13 @@ function adicionarPaciente(event){
     limpaMensagemDeErro.innerHTML = "";
 }
 
+
+function adicionarPacienteTabela(paciente){
+    let pacienteTr =  montaTr(paciente);
+    let tabela = document.querySelector("#tabela-pacientes");
+    tabela.appendChild(pacienteTr);
+}
+
 function exibeMensagensDeErro(erros){
     let ul = document.querySelector("#mensagens-erro");
     ul.innerHTML = "";
